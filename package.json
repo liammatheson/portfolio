@@ -3,10 +3,11 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://github.com/liammatheson/portfolio",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "deploy": "vite build && gh-pages --dotfiles -d dist",
+        "deploy": "vite build && cp dist/index.html dist/404.html && gh-pages --dotfiles -d dist",
         "lint": "eslint .",
         "preview": "vite preview"
     },
@@ -25,7 +26,7 @@
         "react-router-dom": "^7.3.0",
         "react-scroll": "^1.9.3",
         "react-spinners": "^0.17.0",
-        "sort-by": "^1.2.0",
+        "sort-by": "^0.0.2",
         "swiper": "^11.2.8"
     },
     "devDependencies": {
@@ -38,6 +39,7 @@
         "eslint": "^9.21.0",
         "eslint-plugin-react-hooks": "^5.1.0",
         "eslint-plugin-react-refresh": "^0.4.19",
+        "gh-pages": "^6.3.0",
         "globals": "^15.15.0",
         "postcss": "^8.5.6",
         "tailwindcss": "^4.1.17",
