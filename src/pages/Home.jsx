@@ -31,7 +31,7 @@ const Home = () => {
             rel="noopener noreferrer"
             className="btn-primary btn"
           >
-            View Resume
+            View Resume test
           </a>
         </div>
       </div>
