@@ -6,7 +6,8 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   // ⚠️ TEMPORARY FIX: Hardcode the correct repo name
-  const repoName = 'portfolio'; 
+  const repoName = 'portfolio';
+  base: "/portfolio/"; 
 
   // The 'loadEnv' and VITE_REPO_NAME part is commented out/ignored for deployment
   // const env = loadEnv(mode, process.cwd(), "");
