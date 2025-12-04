@@ -8,6 +8,8 @@
         "dev": "vite",
         "build": "vite build",
         "deploy": "vite build && npx shx cp dist/index.html dist/404.html && gh-pages --dotfiles -d dist",
+
+
         "lint": "eslint .",
         "preview": "vite preview"
     },

@@ -23,7 +23,7 @@ const menu = navItems.map((item) => (
       spy={true}
       offset={-140}
       activeStyle={{
-        backgroundColor: "#9929fb",
+        backgroundColor: "#073763",
         color: "white",
       }}
       className={`hover:text-picto-primary px-5 py-3 mx-1`}
@@ -90,7 +90,7 @@ const NavBar = () => {
           >
             <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
             <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-              Brooklyn
+              Liam
             </p>
           </Link>
         </div>

@@ -20,21 +20,20 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex" style={{ paddingLeft: "285px", alignItems: "flex-start" }}>
-        <div>
-          <Introduction />
-        </div>
-        <div className="ml-150 mt-47">
-          <a
-            href="resumeliam.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary btn"
-          >
-            View Resume test
-          </a>
-        </div>
-      </div>
+<div className="flex flex-col sm:flex-row sm:items-start sm:pl-[285px] sm:pr-[565px] sm:h-[200px] gap-4">
+  <Introduction />
+
+  <div className="mt-2 sm:mt-0 sm:ml-auto sm:self-end self-center">
+    <a
+      href="resumeliam.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-primary btn"
+    >
+      View Resume
+    </a>
+  </div>
+</div>
 
 
       
