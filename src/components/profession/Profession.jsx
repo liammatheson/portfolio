@@ -3,23 +3,24 @@ import Roles from "./Roles";
 const rolesData = [
   {
     id: 1,
-    title: "End User IT Support",
+    title: "IT Support Specialist",
     description:
-      "Desktop and laptop configuration, operating system installation, basic hardware repairs, printer setup, and remote assistance",
+      "Setting up desktops and laptops, installing operating systems, performing basic hardware repairs, configuring printers, and providing remote assistance.",
   },
-  // {
-  //   id: 2,
-  //   title: "User Interface (UI)",
-  //   description:
-  //     "I craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey.",
-  // },
   {
     id: 3,
-    title: "Systems and Networks",
+    title: "Network & Systems Administrator",
     description:
-      "Server and network setup, configuration and maintenance, security management, and troubleshooting connectivity issues",
+      "Managing server and network setup, maintaining configurations, overseeing security, and troubleshooting connectivity issues.",
+  },
+  {
+    id: 4,
+    title: "Software Developer",
+    description:
+      "Writing, testing, and maintaining code for applications, debugging issues, and collaborating on software solutions using modern programming languages.",
   },
 ];
+
 
 const Profession = () => {
   return (

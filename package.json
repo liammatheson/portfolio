@@ -7,7 +7,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "deploy": "vite build && npx shx cp dist/index.html dist/404.html && gh-pages --dotfiles -d dist",
+        "deploy": "vite build && npx shx cp dist/index.html dist/404.html && gh-pages --dotfiles -d dist -f",
+
 
 
         "lint": "eslint .",

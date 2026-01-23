@@ -50,6 +50,7 @@ const Home = () => {
       <div className="bg-soft-white">
         <Profession />
         <Portfolio />
+        <Certifications />
       </div>
       {/* <HappyClients /> */}
       {/* <Testimonial /> */}
