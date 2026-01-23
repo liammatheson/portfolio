@@ -78,4 +78,4 @@ const Portfolio = () => {
   );
 };
 
-export default Certfications;
+export default Certifications;
