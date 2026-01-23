@@ -45,7 +45,7 @@ const projectData = [
   // },
 ];
 
-const Portfolio = () => {
+const Certifications = () => {
   return (
     <div
       className="content mt-10 md:mt-15 xl:mt-25 mb-10 md:mb-25 max-xxl:p-2"
