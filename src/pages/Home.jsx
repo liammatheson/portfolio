@@ -52,7 +52,7 @@ const Home = () => {
       <div className="bg-soft-white">
         <Profession />
         <Portfolio />
-        <Certifications />
+        {/* <Certifications /> */}
       </div>
       {/* <HappyClients /> */}
       {/* <Testimonial /> */}

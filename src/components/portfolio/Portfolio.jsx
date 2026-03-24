@@ -34,24 +34,24 @@ const projectData = [
       "Developed a book store site for my final project in web application programming.",
     link: "https://github.com/liammatheson/Liam-Colton-INET-Final-Project-Book-Store",
   },
-  // {
-  //   id: 4,
-  //   image: card4,
-  //   category: "UI-UX DESIGN",
-  //   title: "Product Admin Dashboard",
-  //   description:
-  //     "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.",
-  //   link: "#!",
-  // },
-  // {
-  //   id: 5,
-  //   image: card5,
-  //   category: "UI-UX DESIGN",
-  //   title: "Product Admin Dashboard",
-  //   description:
-  //     "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
-  //   link: "#!",
-  // },
+  {
+    id: 4,
+    image: card4,
+    category: "UI-UX Design/ Group Project",
+    title: "Riot Games Dashboard",
+    description:
+      "Final Group Project. Made a dashboard the connects to the Riot Games APIs to get player data for various Riot Games",
+    link: "https://github.com/NSCC-ITC-Winter2026-PROG3300-250-MCr/final-project-group3",
+  },
+  {
+    id: 5,
+    image: card5,
+    category: "UI-UX DESIGN",
+    title: "Product Admin Dashboard",
+    description:
+      "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
+    link: "https://github.com/liammatheson/assignment-2-next-js-liammatheson",
+  },
   // {
   //   id: 6,
   //   image: card6,
