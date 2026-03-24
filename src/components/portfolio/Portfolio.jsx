@@ -46,10 +46,10 @@ const projectData = [
   {
     id: 5,
     image: card5,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Javascript",
+    title: "Job Application Tracker",
     description:
-      "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
+      "Job Application tracker allows you to enter and modify job application info. Stored on a free SQLite Cloud Server.",
     link: "https://github.com/liammatheson/assignment-2-next-js-liammatheson",
   },
   // {
@@ -73,16 +73,21 @@ const Portfolio = () => {
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
           <p className="section-title ">Portfolio</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
-            Here's a selection of my recent work in class, showcasing my skills in different areas.
+            Here's a selection of my recent work in class, showcasing my skills
+            in different areas.
           </p>
         </div>
       </div>
-      <div className="mx-auto flex justify-center">
-        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6">
-          {projectData.map((data, index) => (
-            <Projects data={data} key={index} />
-          ))}
-        </div>
+      <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6">
+        {projectData.slice(0, -1).map((data, index) => (
+          <Projects data={data} key={index} />
+        ))}
+      </div>
+      <div className="flex justify-center mt-6">
+        <Projects
+          data={projectData[projectData.length - 1]}
+          key={projectData.length - 1}
+        />
       </div>
       {/* <div className="text-center">
         <a
